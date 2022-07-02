@@ -1,0 +1,144 @@
+html {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #30A0B8;
+    color: #363636;
+}
+
+html, body, .container {
+    min-height: 100vh;
+}
+
+body {
+    line-height: 1.5;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+video {
+    width: 60%;
+    background-color: #36b5d1;
+    padding: 0.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border-top: 3px solid #4b4848;
+    padding: 0.8rem 0;
+}
+
+.hero {
+    margin-bottom: 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #36b5d1;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.main {
+    width: clamp(800px, 70%, 1900px);
+    margin: 0 auto;
+    background-color: 	#b5d136ca;
+    padding: 1.5rem 3rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main>* {
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: -3px;
+}
+
+.footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+    background-color: #2890a8;
+}
+
+.footer p {
+    margin-bottom: -3px;
+}
+
+form button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.main p:last-child {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+em {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+button:hover, a:hover, label:hover {
+    cursor: pointer;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+input {
+    padding: 0.2rem;
+}
+
+input, button {
+    background-color: rgb(225, 225, 225);
+}
+
